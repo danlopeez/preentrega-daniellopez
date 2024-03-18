@@ -1,0 +1,31 @@
+$fondo: rgba(211, 152, 42, 0.815);
+
+
+header{
+    background-color: $fondo;
+    height: 80px;
+    padding: 20px;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    div{
+        a{
+            img{
+                height: 250px;
+                width: auto;
+            }
+        }
+    }
+    .container-fluid {
+            a{
+        color: white;
+                &:hover{
+                    color: orange;
+            text-shadow: 0px 0px 15px black;
+                }
+            }
+        }
+    }
