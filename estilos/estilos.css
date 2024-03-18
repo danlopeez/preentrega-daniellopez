@@ -135,7 +135,7 @@ margin-top: 10px;
 .serviciositem1{
     padding: 5px;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
 }
 .serviciositem1 p{
     line-height: 1.5;
@@ -273,7 +273,6 @@ margin-top: 20px;
         }
         .item a{
             font-size: 12px;
-            /* margin: 30px; */
         }
         .contenido{
             grid-template-columns: 1fr 1fr;
@@ -293,15 +292,6 @@ margin-top: 20px;
         .serviciositem{
             margin: 10px;
         }
-        footer{
-            font-size: 8px;
-        }
-        footer p{
-            font-size: 8px;
-        }
-        footer a{
-            font-size: 8px;
-        }
 }
 @media only screen and (min-width:1024px) {
     .barra{
@@ -313,13 +303,6 @@ margin-top: 20px;
     }
     .item a{
         font-size: 25px;
-        /* margin: 150px; */
-    }
-    footer{
-        font-size: 10px;
-    }
-    footer p{
-        font-size: 10px;
     }
     h1{
         font-size: 50px;
