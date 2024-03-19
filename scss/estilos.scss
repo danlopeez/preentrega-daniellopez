@@ -1,12 +1,10 @@
-@import 'generales';
-@import 'header';
-@import 'footer';
-@import 'index';
-@import 'servicios';
-@import 'trabajos';
-@import 'nosotros';
-@import 'contacto';
-@import 'mediaqueries';
-
-
-$fondo: rgba(211, 152, 42, 0.815);
+@import 'componentes/variables';
+@import 'generales/generales';
+@import 'generales/header';
+@import 'generales/footer';
+@import 'page/index';
+@import 'page/servicios';
+@import 'page/trabajos';
+@import 'page/nosotros';
+@import 'page/contacto';
+@import 'generales/mediaqueries';

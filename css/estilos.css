@@ -19,7 +19,7 @@ html {
 
 h1 {
   color: rgb(21, 21, 150);
-  background-color: rgba(211, 152, 42, 0.815);
+  background-color: rgba(255, 168, 5, 0.815);
   width: 200px;
   border: 1px solid orange;
   border-radius: 20px;
@@ -47,7 +47,7 @@ h1 span {
 }
 
 header {
-  background-color: rgba(211, 152, 42, 0.815);
+  background-color: rgba(255, 168, 5, 0.815);
   height: 80px;
   padding: 20px;
   align-items: center;
@@ -56,6 +56,7 @@ header {
   justify-content: space-between;
   left: 0;
   top: 0;
+  text-transform: uppercase;
 }
 header div a img {
   height: 250px;
@@ -65,7 +66,7 @@ header .container-fluid a {
   color: white;
 }
 header .container-fluid a:hover {
-  color: orange;
+  color: rgb(0, 0, 0);
   text-shadow: 0px 0px 15px black;
 }
 
@@ -109,7 +110,7 @@ footer i {
   border: 5px solid black;
   color: white;
   border: solid grey;
-  background-color: rgba(211, 152, 42, 0.815);
+  background-color: rgba(255, 168, 5, 0.815);
   border-radius: 25px;
   margin-top: 15px;
 }
@@ -122,14 +123,15 @@ footer i {
 .contenido .item1 a {
   color: white;
   background-color: rgb(71, 71, 71);
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 10px;
   text-decoration: none;
   font-size: 12px;
 }
 .contenido .item1 a:hover {
-  background-color: orange;
+  background-color: #fff;
   text-shadow: 0px 0px 15px black;
+  color: #000;
 }
 .contenido .item2 {
   background-image: url(../images/imgindex2.webp);
@@ -164,7 +166,7 @@ footer i {
   margin-bottom: 20px;
   border-radius: 6px;
   overflow: hidden;
-  background-color: rgba(211, 152, 42, 0.815);
+  background-color: rgba(255, 168, 5, 0.815);
   color: white;
   box-shadow: 0px 1px 10px rgb(211, 152, 42);
   cursor: default;
@@ -203,7 +205,7 @@ footer i {
   margin-bottom: 20px;
   border-radius: 6px;
   overflow: hidden;
-  background-color: rgba(211, 152, 42, 0.815);
+  background-color: rgba(255, 168, 5, 0.815);
   color: white;
   box-shadow: 0px 1px 10px rgb(211, 152, 42);
   cursor: default;
@@ -249,7 +251,7 @@ footer i {
   margin-bottom: 20px;
   border-radius: 6px;
   overflow: hidden;
-  background-color: rgba(211, 152, 42, 0.815);
+  background-color: rgba(255, 168, 5, 0.815);
   color: white;
   box-shadow: 0px 1px 10px rgb(211, 152, 42);
   cursor: default;
@@ -285,7 +287,7 @@ footer i {
   margin-bottom: 20px;
   border-radius: 6px;
   overflow: hidden;
-  background-color: rgba(211, 152, 42, 0.815);
+  background-color: rgba(255, 168, 5, 0.815);
   color: white;
   box-shadow: 0px 1px 10px rgb(211, 152, 42);
   cursor: default;
