@@ -39,7 +39,7 @@ h1 span {
   position: fixed;
   right: 40px;
   bottom: 40px;
-  background-color: white;
+  background-color: orange;
   text-align: center;
   line-height: 40px;
   font-size: 25px;
@@ -436,6 +436,13 @@ footer i {
   .contactoitem:hover {
     box-shadow: 5px 5px 20px rgb(211, 152, 42);
     transform: translateY(-1%);
+  }
+  .subir {
+    transition: all 400ms ease;
+  }
+  .subir:hover {
+    box-shadow: 0px 0px 20px rgb(211, 152, 42);
+    color: #000;
   }
   header {
     position: sticky;
