@@ -217,6 +217,7 @@ footer i {
 .container p {
   text-align: center;
   color: white;
+  font-size: 7px;
 }
 
 .nosotros {
@@ -354,6 +355,9 @@ footer i {
   .serviciositem {
     margin: 10px;
   }
+  .container p {
+    font-size: 15px;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .item1 p {
@@ -390,6 +394,9 @@ footer i {
   .container:hover {
     box-shadow: 5px 5px 20px rgb(211, 152, 42);
     transform: translateY(-1%);
+  }
+  .container p {
+    font-size: 20px;
   }
   .nosotros {
     gap: 15px;
