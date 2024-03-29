@@ -50,7 +50,7 @@ h1 span {
 
 header {
   background-color: rgb(255, 168, 5);
-  height: 80px;
+  height: 150px;
   padding: 20px;
   align-items: center;
   color: white;
@@ -61,11 +61,13 @@ header {
   text-transform: uppercase;
 }
 header div a img {
-  height: 250px;
+  height: 320px;
   width: auto;
 }
 header .container-fluid a {
   color: white;
+  padding: 0px;
+  font-size: 18px;
 }
 header .container-fluid a:hover {
   color: rgb(0, 0, 0);
@@ -195,7 +197,7 @@ footer i {
 }
 
 .container {
-  width: 100%;
+  width: 80%;
   margin: auto;
   padding: 50px;
   background-color: rgb(255, 168, 5);
@@ -297,9 +299,6 @@ footer i {
 .contacto .contactoitem .contactoitem1 form input {
   background-color: white;
 }
-.contacto .contactoitem .contactoitem1 form .boton {
-  color: aqua;
-}
 
 @media only screen and (min-width: 480px) {
   .item1 p {
@@ -307,9 +306,6 @@ footer i {
   }
   .item a {
     font-size: 10px;
-  }
-  .barra {
-    font-size: 12px;
   }
 }
 @media only screen and (min-width: 720px) {
@@ -374,7 +370,7 @@ footer i {
   }
   .servicios {
     gap: 15px;
-    width: 40%;
+    width: 60%;
     display: grid;
     justify-content: center;
     margin: auto;
@@ -396,7 +392,7 @@ footer i {
   }
   .nosotros {
     gap: 15px;
-    width: 40%;
+    width: 60%;
     display: grid;
     justify-content: center;
     margin: auto;

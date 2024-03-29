@@ -6,9 +6,6 @@
     .item a{
         font-size: 10px;
     }
-    .barra{
-        font-size: 12px;
-    }
 }
 @media only screen and (min-width:720px) {    
         .item1 p{
@@ -73,7 +70,7 @@
     }
     .servicios{
         gap: 15px;
-        width: 40%;
+        width: 60%;
         display: grid;
         justify-content: center;
         margin: auto;
@@ -95,7 +92,7 @@
     }
     .nosotros{
         gap: 15px;
-        width: 40%;
+        width: 60%;
         display: grid;
         justify-content: center;
         margin: auto;
