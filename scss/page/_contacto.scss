@@ -2,7 +2,7 @@
 .contacto{
     width: 100%;
     height: auto;
-    margin-top: 10px;
+    margin-top: 30px;
     .contactoitem{
         width: 80%;
         margin: auto;
@@ -24,13 +24,24 @@
             padding: 5px;
             text-align: center;
             font-size: 20px;
-            h3{
+            h2{
                 font-weight: 400;
                 font-size: 20px;
                 margin-top: 0px;
+                color: $titulos;
+                text-shadow: 0px 0px 15px black;
             }
             form{
                 font-size: 20px;
+                label{
+                    background-color: $fondo;
+                }
+                input{
+                    background-color: white;
+                };
+                .boton{
+                    color: aqua;
+                }
             }
         }
     }

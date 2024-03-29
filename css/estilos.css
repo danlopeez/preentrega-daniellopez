@@ -19,13 +19,15 @@ html {
 
 h1 {
   color: rgb(21, 21, 150);
-  background-color: rgba(255, 168, 5, 0.815);
+  text-shadow: 0px 0px 15px black;
+  background-color: rgb(255, 168, 5);
   width: 200px;
   border: 1px solid orange;
   border-radius: 20px;
   font-size: 20px;
   text-align: center;
   margin: auto;
+  margin-top: 50px;
 }
 h1 span {
   color: black;
@@ -47,7 +49,7 @@ h1 span {
 }
 
 header {
-  background-color: rgba(255, 168, 5, 0.815);
+  background-color: rgb(255, 168, 5);
   height: 80px;
   padding: 20px;
   align-items: center;
@@ -110,7 +112,7 @@ footer i {
   border: 5px solid black;
   color: white;
   border: solid grey;
-  background-color: rgba(255, 168, 5, 0.815);
+  background-color: rgb(255, 168, 5);
   border-radius: 25px;
   margin-top: 15px;
 }
@@ -166,7 +168,7 @@ footer i {
   margin-bottom: 20px;
   border-radius: 6px;
   overflow: hidden;
-  background-color: rgba(255, 168, 5, 0.815);
+  background-color: rgb(255, 168, 5);
   color: white;
   box-shadow: 0px 1px 10px rgb(211, 152, 42);
   cursor: default;
@@ -174,16 +176,17 @@ footer i {
 }
 .servicios .serviciositem figure img {
   width: 100%;
-  height: 250px;
+  object-fit: cover;
 }
 .servicios .serviciositem .serviciositem1 {
   padding: 10px;
   text-align: center;
   font-size: 15px;
 }
-.servicios .serviciositem .serviciositem1 h3 {
+.servicios .serviciositem .serviciositem1 h2 {
   line-height: 1.5;
-  color: #e6e1e1;
+  color: rgb(21, 21, 150);
+  text-shadow: 0px 0px 15px black;
 }
 .servicios .serviciositem .serviciositem1 p {
   font-weight: 400;
@@ -191,51 +194,26 @@ footer i {
   margin-top: 0px;
 }
 
-.trabajos {
+.container {
   width: 100%;
-  height: auto;
-  display: inline-block;
-  margin-top: 30px;
-  padding: 35px;
-  gap: 15px;
-}
-.trabajos .trabajositem {
-  width: 80%;
   margin: auto;
-  margin-bottom: 20px;
-  border-radius: 6px;
-  overflow: hidden;
-  background-color: rgba(255, 168, 5, 0.815);
-  color: white;
-  box-shadow: 0px 1px 10px rgb(211, 152, 42);
-  cursor: default;
-  padding: 10px;
+  padding: 50px;
+  background-color: rgb(255, 168, 5);
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-.trabajos .trabajositem figure img {
+.container video {
   width: 100%;
-  height: 250px;
+  object-fit: cover;
 }
-.trabajos .trabajositem figure iframe {
-  width: 100%;
-  height: 300px;
-}
-.trabajos .trabajositem figure video {
-  width: 100%;
-  height: 300px;
-}
-.trabajos .trabajositem .trabajositem1 {
-  padding: 10px;
+.container h2 {
   text-align: center;
-  font-size: 15px;
+  text-shadow: 0px 0px 15px black;
+  color: rgb(21, 21, 150);
 }
-.trabajos .trabajositem .trabajositem1 h3 {
-  line-height: 1.5;
-  color: #e6e1e1;
-}
-.trabajos .trabajositem .trabajositem1 p {
-  font-weight: 400;
-  font-size: 15px;
-  margin-top: 0px;
+.container p {
+  text-align: center;
+  color: white;
 }
 
 .nosotros {
@@ -251,7 +229,7 @@ footer i {
   margin-bottom: 20px;
   border-radius: 6px;
   overflow: hidden;
-  background-color: rgba(255, 168, 5, 0.815);
+  background-color: rgb(255, 168, 5);
   color: white;
   box-shadow: 0px 1px 10px rgb(211, 152, 42);
   cursor: default;
@@ -259,16 +237,17 @@ footer i {
 }
 .nosotros .nosotrositem figure img {
   width: 100%;
-  height: 250px;
+  object-fit: cover;
 }
 .nosotros .nosotrositem .nosotrositem1 {
   padding: 10px;
   text-align: center;
   font-size: 15px;
 }
-.nosotros .nosotrositem .nosotrositem1 h3 {
+.nosotros .nosotrositem .nosotrositem1 h2 {
   line-height: 1.5;
-  color: #e6e1e1;
+  color: rgb(21, 21, 150);
+  text-shadow: 0px 0px 15px black;
 }
 .nosotros .nosotrositem .nosotrositem1 p {
   font-weight: 400;
@@ -279,7 +258,7 @@ footer i {
 .contacto {
   width: 100%;
   height: auto;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 .contacto .contactoitem {
   width: 80%;
@@ -287,7 +266,7 @@ footer i {
   margin-bottom: 20px;
   border-radius: 6px;
   overflow: hidden;
-  background-color: rgba(255, 168, 5, 0.815);
+  background-color: rgb(255, 168, 5);
   color: white;
   box-shadow: 0px 1px 10px rgb(211, 152, 42);
   cursor: default;
@@ -302,13 +281,24 @@ footer i {
   text-align: center;
   font-size: 20px;
 }
-.contacto .contactoitem .contactoitem1 h3 {
+.contacto .contactoitem .contactoitem1 h2 {
   font-weight: 400;
   font-size: 20px;
   margin-top: 0px;
+  color: rgb(21, 21, 150);
+  text-shadow: 0px 0px 15px black;
 }
 .contacto .contactoitem .contactoitem1 form {
   font-size: 20px;
+}
+.contacto .contactoitem .contactoitem1 form label {
+  background-color: rgb(255, 168, 5);
+}
+.contacto .contactoitem .contactoitem1 form input {
+  background-color: white;
+}
+.contacto .contactoitem .contactoitem1 form .boton {
+  color: aqua;
 }
 
 @media only screen and (min-width: 480px) {
@@ -321,10 +311,6 @@ footer i {
   .barra {
     font-size: 12px;
   }
-  .contenido {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, 200px);
-  }
 }
 @media only screen and (min-width: 720px) {
   .item1 p {
@@ -332,41 +318,6 @@ footer i {
   }
   .item a {
     font-size: 12px;
-  }
-  .contenido {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, 200px);
-  }
-  .servicios {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  .card {
-    width: 100%;
-  }
-  h1 {
-    font-size: 30px;
-    width: 300px;
-  }
-  .servicios {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  .serviciositem {
-    margin: 10px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .item1 p {
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
-  .item a {
-    font-size: 25px;
-  }
-  h1 {
-    font-size: 50px;
-    width: 500px;
   }
   .contenido {
     grid-template-columns: 3fr 1fr;
@@ -396,9 +347,37 @@ footer i {
     background-size: contain;
     background-position: center;
   }
-  .servicios {
+  .card {
+    width: 100%;
+  }
+  h1 {
+    font-size: 50px;
+    width: 500px;
+  }
+  .serviciositem {
+    margin: 10px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .item1 p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .item a {
+    font-size: 25px;
     display: flex;
-    flex-wrap: nowrap;
+    width: 225px;
+    margin: auto;
+  }
+  .item a:hover {
+    box-shadow: 0px 0px 25px black;
+  }
+  .servicios {
+    gap: 15px;
+    width: 40%;
+    display: grid;
+    justify-content: center;
+    margin: auto;
   }
   .serviciositem {
     transition: all 400ms ease;
@@ -407,33 +386,25 @@ footer i {
     box-shadow: 5px 5px 20px rgb(211, 152, 42);
     transform: translateY(-1%);
   }
-  .trabajos {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  .trabajositem {
+  .container {
+    margin-top: 35px;
     transition: all 400ms ease;
   }
-  .trabajositem:hover {
+  .container:hover {
     box-shadow: 5px 5px 20px rgb(211, 152, 42);
     transform: translateY(-1%);
   }
   .nosotros {
-    display: flex;
-    flex-wrap: nowrap;
     gap: 15px;
+    width: 40%;
+    display: grid;
+    justify-content: center;
+    margin: auto;
   }
   .nosotrositem {
     transition: all 400ms ease;
   }
   .nosotrositem:hover {
-    box-shadow: 5px 5px 20px rgb(211, 152, 42);
-    transform: translateY(-1%);
-  }
-  .contactoitem {
-    transition: all 400ms ease;
-  }
-  .contactoitem:hover {
     box-shadow: 5px 5px 20px rgb(211, 152, 42);
     transform: translateY(-1%);
   }
