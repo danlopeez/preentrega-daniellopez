@@ -217,7 +217,7 @@ footer i {
 .container p {
   text-align: center;
   color: white;
-  font-size: 7px;
+  font-size: 10px;
   margin-bottom: 5px;
 }
 .container a {
@@ -415,7 +415,7 @@ footer i {
     transform: translateY(-1%);
   }
   .container h2 {
-    margin-top: 50px;
+    margin-top: 10%;
   }
   .container p {
     font-size: 25px;
