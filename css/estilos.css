@@ -200,7 +200,7 @@ footer i {
 .container {
   width: 80%;
   margin: auto;
-  padding: 50px;
+  padding: 1 0px;
   background-color: rgb(255, 168, 5);
   margin-top: 15px;
   margin-bottom: 15px;
@@ -218,6 +218,25 @@ footer i {
   text-align: center;
   color: white;
   font-size: 7px;
+  margin-bottom: 5px;
+}
+.container a {
+  color: white;
+  background-color: rgb(71, 71, 71);
+  border-radius: 25px;
+  text-decoration: none;
+  width: 75px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.container a:hover {
+  background-color: #fff;
+  text-shadow: 0px 0px 15px black;
+  color: #000;
 }
 
 .nosotros {
@@ -395,8 +414,17 @@ footer i {
     box-shadow: 5px 5px 20px rgb(211, 152, 42);
     transform: translateY(-1%);
   }
+  .container h2 {
+    margin-top: 50px;
+  }
   .container p {
-    font-size: 20px;
+    font-size: 25px;
+    margin: auto;
+  }
+  .container a {
+    font-size: 25px;
+    width: 150px;
+    margin-top: 15px;
   }
   .nosotros {
     gap: 15px;

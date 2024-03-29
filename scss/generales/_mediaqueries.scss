@@ -93,8 +93,17 @@
         box-shadow: 5px 5px 20px rgba(211, 152, 42, 10);
         transform: translateY(-1%);
     }
+    .container h2{
+        margin-top: 50px;
+    }
     .container p{
-        font-size: 20px;
+        font-size: 25px;
+        margin: auto;
+    }
+    .container a{
+        font-size: 25px;
+        width: 150px;
+        margin-top: 15px;
     }
     .nosotros{
         gap: 15px;
