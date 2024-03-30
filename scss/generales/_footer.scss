@@ -20,12 +20,14 @@ footer{
                 letter-spacing: 15px;
                 margin-bottom: 10px;
                 &:hover{
-                    color: white;
+                    color: $textos;
                 }
             }
         }
     }
     i{
         margin-top: 10px;
+        color: $iconos;
+        font-size: 25px;
     }
 }

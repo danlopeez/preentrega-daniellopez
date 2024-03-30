@@ -11,7 +11,7 @@
         overflow: hidden;
         background-color: $fondo;
         color: $textos;
-        box-shadow: 0px 1px 10px rgba(211, 152, 42, 5);
+        box-shadow: 0px 1px 10px $shadow-card;
         cursor: default;
         transition: all 400ms ease;
         figure{
@@ -29,7 +29,7 @@
                 font-size: 20px;
                 margin-top: 0px;
                 color: $titulos;
-                text-shadow: 0px 0px 15px black;
+                text-shadow: 0px 0px 15px $shadow;
             }
             form{
                 font-size: 20px;
@@ -37,7 +37,7 @@
                     background-color: $fondo;
                 }
                 input{
-                    background-color: white;
+                    background-color: $bgwhite;
                 };
             }
         }

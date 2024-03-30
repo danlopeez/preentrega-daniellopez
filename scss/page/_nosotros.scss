@@ -13,7 +13,7 @@
         overflow: hidden;
         background-color: $fondo;
         color: $textos;
-        box-shadow: 0px 1px 10px rgba(211, 152, 42, 5);
+        box-shadow: 0px 1px 10px $shadow-card;
         cursor: default;
         padding: 10px;
         figure{
@@ -29,7 +29,7 @@
             h2{
                 line-height: 1.5;
                 color: $titulos;
-                text-shadow: 0px 0px 15px black;
+                text-shadow: 0px 0px 15px $shadow;
             }
             p{
                 font-weight: 400;

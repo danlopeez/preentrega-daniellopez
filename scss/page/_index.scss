@@ -32,9 +32,9 @@
                 margin-bottom: 30px;
                 width: 100px;
                      &:hover{
-                        background-color: #fff;
-                        text-shadow: 0px 0px 15px black;
-                        color: #000;
+                        background-color: $bgwhite;
+                        text-shadow: 0px 0px 15px $shadow;
+                        color: $shadow;
                 }
             }
 
