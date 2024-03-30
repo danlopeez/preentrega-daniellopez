@@ -1,3 +1,31 @@
+.parrafos, .nosotros .nosotrositem .nosotrositem1 p, .container p, .servicios .serviciositem .serviciositem1 p, .contenido .item1 p {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+
+.botones, .container a, .contenido .item1 a {
+  color: #fff;
+  background-color: rgb(11, 11, 102);
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.hover-botones, .container a:hover, .contenido .item1 a:hover {
+  background-color: #fff;
+  text-shadow: 0px 0px 15px #000;
+  color: #000;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -48,6 +76,7 @@ header {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   left: 0;
   top: 0;
 }
@@ -107,37 +136,17 @@ footer i {
   padding: 20px;
 }
 .contenido .item1 {
-  border: 5px solid black;
   color: #fff;
-  border: solid grey;
   background-color: rgb(255, 168, 5);
   border-radius: 25px;
   margin-top: 15px;
 }
 .contenido .item1 p {
-  margin-bottom: 0px;
-  font-size: 15px;
-  text-align: center;
-  padding: 15px;
+  padding: 20px;
 }
 .contenido .item1 a {
-  color: #fff;
-  background-color: rgb(11, 11, 102);
-  border-radius: 25px;
   padding: 10px;
-  text-decoration: none;
-  font-size: 12px;
-  display: flex;
-  justify-content: center;
-  margin-top: 0px;
-  margin: auto;
-  margin-bottom: 30px;
   width: 100px;
-}
-.contenido .item1 a:hover {
-  background-color: #fff;
-  text-shadow: 0px 0px 15px #000;
-  color: #000;
 }
 .contenido .item2 {
   background-image: url(../images/imgindex2.webp);
@@ -150,13 +159,12 @@ footer i {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
 }
 .contenido .item4 {
   background-image: url(../images/imgindex3.webp);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .servicios {
@@ -189,16 +197,9 @@ footer i {
   font-size: 15px;
 }
 .servicios .serviciositem .serviciositem1 h2 {
-  line-height: 1.5;
   color: rgb(21, 21, 150);
   text-shadow: 0px 0px 15px #000;
 }
-.servicios .serviciositem .serviciositem1 p {
-  font-weight: 400;
-  font-size: 15px;
-  margin-top: 0px;
-}
-
 .container {
   width: 80%;
   margin: auto;
@@ -212,35 +213,12 @@ footer i {
   object-fit: cover;
 }
 .container h2 {
-  text-align: center;
-  text-shadow: 0px 0px 15px #000;
   color: rgb(21, 21, 150);
-}
-.container p {
-  text-align: center;
-  color: #fff;
-  font-size: 10px;
-  margin-bottom: 5px;
+  text-shadow: 0px 0px 15px #000;
 }
 .container a {
-  color: #fff;
-  background-color: rgb(11, 11, 102);
-  border-radius: 25px;
-  text-decoration: none;
   width: 75px;
-  font-size: 10px;
-  display: flex;
-  justify-content: center;
-  margin-top: 0px;
-  margin: auto;
-  margin-bottom: 10px;
 }
-.container a:hover {
-  background-color: #fff;
-  text-shadow: 0px 0px 15px #000;
-  color: #000;
-}
-
 .nosotros {
   width: 100%;
   height: auto;
@@ -270,16 +248,9 @@ footer i {
   font-size: 15px;
 }
 .nosotros .nosotrositem .nosotrositem1 h2 {
-  line-height: 1.5;
   color: rgb(21, 21, 150);
   text-shadow: 0px 0px 15px #000;
 }
-.nosotros .nosotrositem .nosotrositem1 p {
-  font-weight: 400;
-  font-size: 15px;
-  margin-top: 0px;
-}
-
 .contacto {
   width: 100%;
   height: auto;
@@ -295,6 +266,8 @@ footer i {
   color: #fff;
   box-shadow: 0px 1px 10px rgb(211, 152, 42);
   cursor: default;
+  padding: 10px;
+  cursor: default;
   transition: all 400ms ease;
 }
 .contacto .contactoitem figure iframe {
@@ -307,11 +280,11 @@ footer i {
   font-size: 20px;
 }
 .contacto .contactoitem .contactoitem1 h2 {
+  color: rgb(21, 21, 150);
+  text-shadow: 0px 0px 15px #000;
   font-weight: 400;
   font-size: 20px;
   margin-top: 0px;
-  color: rgb(21, 21, 150);
-  text-shadow: 0px 0px 15px #000;
 }
 .contacto .contactoitem .contactoitem1 form {
   font-size: 20px;

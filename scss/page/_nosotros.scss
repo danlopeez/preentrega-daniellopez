@@ -1,40 +1,21 @@
 
 .nosotros{
-    width: 100%;
-    height: auto;
-    display: inline-block;
-    margin-top: 10px;
-    padding: 20px;
+    @include orden-card(100%, auto, inline-block, 10px, 20px);
     .nosotrositem{
-        width: 80%;
-        margin: auto;
-        margin-bottom: 20px;
-        border-radius: 6px;
-        overflow: hidden;
-        background-color: $fondo;
-        color: $textos;
-        box-shadow: 0px 1px 10px $shadow-card;
-        cursor: default;
-        padding: 10px;
+        @include inside-card(80%, auto, 20px, 6px, hidden, map-get($map: $colores, $key: color-fondo), map-get($map: $colores, $key: color-textos), 0px 1px 10px map-get($map: $colores, $key: color-shadows-cards), default, 10px);
         figure{
             img{
-                width: 100%;
-                object-fit: cover;
+                @include img-cards(100%, cover)
 }
         }
         .nosotrositem1{
-            padding: 10px;
-            text-align: center;
-            font-size: 15px;
+            @include details-cards(10px, center, 15px);
+
             h2{
-                line-height: 1.5;
-                color: $titulos;
-                text-shadow: 0px 0px 15px $shadow;
+                @include subtitle($titulos, 0px 0px 15px map-get($map: $colores, $key: color-shadows))
             }
             p{
-                font-weight: 400;
-                font-size: 15px;
-                margin-top: 0px;
+                @extend .parrafos;
             }
         }
     }

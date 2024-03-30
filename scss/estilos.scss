@@ -1,10 +1,19 @@
-@import 'componentes/variables';
-@import 'generales/generales';
-@import 'generales/header';
-@import 'generales/footer';
+@import 'base/variables';
+
+
+@import 'utilities/maps';
+@import 'utilities/extends';
+@import 'utilities/mixins';
+
+@import 'base/generales';
+
+@import 'componentes/header';
+@import 'componentes/footer';
+
 @import 'page/index';
 @import 'page/servicios';
 @import 'page/trabajos';
 @import 'page/nosotros';
 @import 'page/contacto';
-@import 'generales/mediaqueries';
+
+@import 'componentes/mediaqueries';

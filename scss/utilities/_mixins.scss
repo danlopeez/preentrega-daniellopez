@@ -1,0 +1,41 @@
+@mixin posicion-img($talla, $posicion, $repeat){
+    background-size: $talla;
+    background-position: $posicion;
+    background-repeat: $repeat;
+}
+
+@mixin orden-card($ancho, $alto, $display, $top, $padding){
+    width: $ancho;
+    height: $alto;
+    display: $display;
+    margin-top: $top;
+    padding: $padding;
+}
+
+@mixin inside-card($ancho, $margen, $bottom, $borderradius, $overflow, $bgcolor, $color, $boxshadow, $cursor, $padding){
+    width: $ancho;
+    margin: $margen;
+    margin-bottom: $bottom;
+    border-radius: $borderradius;
+    overflow: $overflow;
+    background-color: $bgcolor;
+    color: $color;
+    box-shadow: $boxshadow;
+    cursor: $cursor;
+    padding: $padding;
+}
+
+@mixin img-cards($ancho, $posicion){
+    width: $ancho;
+    object-fit: $posicion;
+}
+
+@mixin details-cards($ancho, $posicion, $fuente){
+    padding: $ancho;
+    text-align: $posicion;
+    font-size: $fuente;
+}
+@mixin subtitle($color, $sombra){
+    color: $color;
+    text-shadow: $sombra;
+}

@@ -2,7 +2,7 @@
     width: 80%;
     margin: auto;
     padding: 1  0px;
-    background-color: $fondo;
+    background-color: map-get($map: $colores, $key: color-fondo);
     margin-top: 15px;
     margin-bottom: 15px;
 
@@ -11,32 +11,17 @@ video{
     object-fit: cover;
 }
 h2{
-    text-align: center;
-    text-shadow: 0px 0px 15px $shadow;
-    color: $titulos;
+    @include subtitle($titulos, 0px 0px 15px map-get($map: $colores, $key: color-shadows))
 }
 p{
-    text-align: center;
-    color: $textos;
-    font-size: 10px;
-    margin-bottom: 5px;
+    @extend .parrafos;
 }
 a{
-    color: $textos;
-    background-color: $botones;
-    border-radius: 25px;
-    text-decoration: none;
+    @extend .botones;
     width: 75px;
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-    margin-top: 0px;
-    margin: auto;
-    margin-bottom: 10px;
+
          &:hover{
-            background-color: $bgwhite;
-            text-shadow: 0px 0px 15px $shadow;
-            color: $shadow;
+            @extend .hover-botones;
     }
 }
 }
