@@ -11,7 +11,8 @@ video{
     object-fit: cover;
 }
 h2{
-    @include subtitle($titulos, 0px 0px 15px map-get($map: $colores, $key: color-shadows))
+    @include subtitle($titulos, 0px 0px 15px map-get($map: $colores, $key: color-shadows));
+    text-align: center;
 }
 p{
     @extend .parrafos;
