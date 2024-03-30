@@ -9,8 +9,7 @@
         .item1{    
             color: map-get($map: $colores, $key: color-textos);
             border-radius: 25px;
-            margin-top: 15px;
-            margin-bottom: 0px;
+            // margin-top: px;
             p{
                 @extend .parrafos;
                 padding: 20px;
