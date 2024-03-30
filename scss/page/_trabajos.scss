@@ -17,13 +17,13 @@ h2{
 }
 p{
     text-align: center;
-    color: white;
+    color: $textos;
     font-size: 10px;
     margin-bottom: 5px;
 }
 a{
-    color: white;
-    background-color: rgb(71, 71, 71);
+    color: $textos;
+    background-color: $botones;
     border-radius: 25px;
     text-decoration: none;
     width: 75px;

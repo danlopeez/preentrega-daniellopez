@@ -7,7 +7,7 @@
         padding: 20px;
         .item1{    
             border:5px solid black;
-            color: white;
+            color: $textos;
             border: solid grey;
             background-color: $fondo;
             border-radius: 25px;
@@ -19,8 +19,8 @@
                 padding: 15px;
             }
             a{
-                color: white;
-                background-color: rgb(71, 71, 71);
+                color: $textos;
+                background-color: $botones;
                 border-radius: 25px;
                 padding: 10px;
                 text-decoration: none;
@@ -40,10 +40,11 @@
             background-repeat: no-repeat;
         }
         .item3{
-            background-image: url(../images/logo.webp);
+            background-image: url(../images/car.webp);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            width: 100%;
         }
         .item4{
             background-image: url(../images/imgindex3.webp);
