@@ -25,9 +25,6 @@ h1 {
   margin: auto;
   margin-top: 50px;
 }
-h1 span {
-  color: rgb(21, 21, 150);
-}
 
 .subir {
   height: 40px;
@@ -49,7 +46,6 @@ header {
   height: 150px;
   padding: 20px;
   align-items: center;
-  color: rgb(21, 21, 150);
   display: flex;
   justify-content: space-between;
   left: 0;
@@ -61,14 +57,14 @@ header div a img {
   width: auto;
 }
 header .container-fluid a {
-  color: rgb(21, 21, 150);
-  font-weight: bold;
+  color: #fff;
   text-shadow: 0px 0px 15px grey;
   padding: 0px;
   font-size: 14px;
+  font-weight: bold;
 }
 header .container-fluid a:hover {
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-shadow: 0px 0px 15px black;
 }
 
@@ -130,6 +126,12 @@ footer i {
   padding: 10px;
   text-decoration: none;
   font-size: 12px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 100px;
 }
 .contenido .item1 a:hover {
   background-color: #fff;
@@ -383,7 +385,7 @@ footer i {
     margin-bottom: 30px;
   }
   .item a {
-    font-size: 25px;
+    font-size: 30px;
     display: flex;
     width: 225px;
     margin: auto;
