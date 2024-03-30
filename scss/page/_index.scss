@@ -10,6 +10,7 @@
             color: map-get($map: $colores, $key: color-textos);
             border-radius: 25px;
             margin-top: 15px;
+            margin-bottom: 0px;
             p{
                 @extend .parrafos;
                 padding: 20px;
