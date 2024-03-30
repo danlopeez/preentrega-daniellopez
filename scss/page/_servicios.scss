@@ -6,7 +6,8 @@
         @include inside-card(80%, auto, 20px, 6px, hidden, map-get($map: $colores, $key: color-fondo), map-get($map: $colores, $key: color-textos), 0px 1px 10px map-get($map: $colores, $key: color-shadows-cards), default, 10px);
         figure{
             img{
-            @include img-cards(100%, cover)
+            @include img-cards(100%, cover);
+            border: 5px solid $border-secundario;
 }
         }
         .serviciositem1{

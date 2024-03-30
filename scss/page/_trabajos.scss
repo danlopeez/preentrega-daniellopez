@@ -5,10 +5,14 @@
     background-color: map-get($map: $colores, $key: color-fondo);
     margin-top: 15px;
     margin-bottom: 15px;
+    border: 5px solid $border-secundario;
+
 
 video{
     width: 100%;
     object-fit: cover;
+    border: 5px solid $border-secundario;
+
 }
 h2{
     @include subtitle($titulos, 0px 0px 15px map-get($map: $colores, $key: color-shadows));

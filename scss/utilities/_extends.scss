@@ -5,6 +5,9 @@
     font-weight: 400;
     text-align: center;
     color: map-get($map: $colores, $key: color-textos);
+    // background-color: $bgorange;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px map-get($map: $colores, $key: color-shadows);
 }
 
 .botones{
